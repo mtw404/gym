@@ -1,0 +1,19 @@
+text-center
+mb-lg-0
+m-auto 
+ms-auto
+me-auto
+img-fluid
+w-100
+text-center
+justify-content-end
+
+
+
+
+
+responsive -------------------web view---------------------
+mobile 320*844    col
+sm 576*778 col-sm-
+md 768 col-md
+xl 1200 col-xl

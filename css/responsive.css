@@ -1,0 +1,831 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ============================================ 
+               about part start
+============================================ */
+.about-video {
+    margin-top: 75px;
+}
+/* ============================================ 
+                about part end
+============================================ */
+/* ============================================ 
+                class part start
+============================================ */
+.class-body ul li {
+	width: 19.57%;
+}
+/* ============================================ 
+                class part end
+============================================ */
+/* ============================================ 
+                footer part start
+============================================ */
+.footer-left ul li {
+	line-height: 27px;
+}
+.foot-img ul li {
+	width: 21.62%;
+}
+/* ============================================ 
+                footer part end
+============================================ */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* ============================================ 
+               menu part start
+============================================ */
+.main-manu .navbar-brand {
+	width: 200px;
+}
+.about-text p span {
+	margin-bottom: 25px;
+}
+/* ============================================ 
+               menu part end
+============================================ */
+/* ============================================ 
+                about part start
+============================================ */
+#about {
+	padding: 74px 0;
+}
+/* ============================================ 
+                about part end
+============================================ */
+/* ============================================ 
+                team part start
+============================================ */
+#team {
+	padding: 74px 0 0 0;
+}
+/* ============================================ 
+                team part end
+============================================ */
+/* ============================================ 
+                member part start
+============================================ */
+#membership {
+	padding: 74px 0;
+}
+.member-inner h2 {
+	padding: 20px;
+    font-size: 40px;
+}
+.member-inner h3 {
+	padding: 15px 0;
+	font-size: 14px;
+}
+.member-inner h2 span {
+	font-size: 25px;
+}
+.member-inner ul {
+	padding: 10px 0;
+}
+.member-inner ul li {
+	padding: 10px 0;
+}
+.member-inner a {
+	font-size: 14px;
+}
+/* ============================================ 
+                member part end
+============================================ */
+/* ============================================ 
+                classes part start
+============================================ */
+#classes {
+	padding: 74px 0;
+}
+.class-body ul li {
+	width: 19.42%;
+	padding: 2px 0;
+}
+.logo-fix ul li p {
+	font-size: 14px;
+}
+.logo-fix ul li i {
+	font-size: 40px;
+}
+/* ============================================ 
+                classes part end
+============================================ */
+/* ============================================ 
+                member part start
+============================================ */
+/* ============================================ 
+                member part end
+============================================ */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+        /* ============================================ 
+               menu part start
+ ============================================ */
+    .main-manu {
+        top: 0px;
+        background: var(--hov);
+    }
+
+    .main-manu .navbar-brand {
+        width: 180px;
+        height: 52px;
+        line-height: 52px;
+    }
+
+    .main-manu button i {
+        color: #fff;
+    }
+
+    .main-manu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main-manu #navbarSupportedContent {
+        background: #e23e38;
+        text-align: center;
+    }
+
+    .main-manu ul li a::after {
+        display: none;
+    }
+
+    .main-manu ul li a {
+        line-height: 35px;
+    }
+
+    .main-manu ul li a:focus {
+        color: inherit;
+    }
+    
+    /* ============================================ 
+               menu part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               banner part start
+ ============================================ */
+    .banner-text h2::before,
+    .banner-text h2::after,
+    .banner-text p::before,
+    .banner-text p::after,
+    .banner-text h1::before,
+    .banner-text h1::after {
+        display: none;
+    }
+
+    .banner-iteam {
+        padding: 150px 0 90px;
+    }
+
+    .banner-text h2 {
+        font-size: 26px;
+    }
+
+    .banner-text h1 {
+        font-size: 42px;
+        margin-top: 0;
+    }
+
+    .banner-text a {
+        padding: 5px 10px;
+        margin-top: 23px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    #banner .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0px 3px;
+    }
+
+
+
+    /* ============================================ 
+               banner part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               about part start
+ ============================================ */
+    #about {
+        padding: 53px 0;
+    }
+
+    .about-text p {
+        margin-bottom: 24px;
+        text-align: justify;
+    }
+
+    .about-text p span {
+        margin-top: 10px;
+    }
+
+    .gal-img:nth-child(2) {
+        margin-bottom: 24px;
+    }
+
+    /* ============================================ 
+               about part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               gallery part start
+ ============================================ */
+    .gal-img:nth-child(2) {
+        margin-bottom: 24px;
+    }
+
+    /* ============================================ 
+               gallery part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               team part start
+ ============================================ */
+    .team-main {
+        transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+    }
+
+    .team-main .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team-main .team-txt p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team-main .team-txt {
+        border-color: #dddddd;
+    }
+
+    #team {
+        padding: 53px 0 13px;
+    }
+
+
+    /* ============================================ 
+               team part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               Testimonial part start
+ ============================================ */
+    #Testimonial .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    #Testimonial .slick-dots li button {
+        margin: 0 3px;
+    }
+
+    #Testimonial .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+    }
+
+    /* ============================================ 
+               Testimonial part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+                Member part start
+ ============================================ */
+    #membership {
+        padding: 53px 0;
+    }
+
+    .member-inner h3 {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .member-inner h2 {
+        padding: 20px;
+        font-size: 35px;
+    }
+
+    .member-inner h2 span {
+        font-size: 22px;
+    }
+
+    .member-inner ul {
+        padding: 5px 0;
+    }
+
+    .member-inner ul li {
+        padding: 10px 0;
+    }
+
+    .member-inner a {
+        padding: 5px 0;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    /* ============================================ 
+                Member part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               counter part start
+ ============================================ */
+    #counter .counter-txt h3 {
+        font-size: 33px;
+    }
+
+    #counter .counter-txt p {
+        font-size: 14px;
+    }
+
+    /* ============================================ 
+               counter part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               classes part start
+ ============================================ */
+    .class-menu li {
+        width: 33.33%;
+        border-bottom: 1px solid var(--hov);
+        height: 35px;
+    }
+
+    .class-menu li button {
+        height: 35px;
+    }
+
+    .class-body ul li {
+        width: 49.51%;
+        padding: 20px 0;
+    }
+
+    .class-body ul li:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .class-body ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    .logo-fix ul li p {
+        font-size: 12px;
+    }
+
+    .logo-fix ul li i {
+        font-size: 30px;
+    }
+
+    .logo-fix ul li p:last-child {
+        font-size: 12px;
+    }
+    #classes {
+        padding: 53px 0;
+    }
+
+    /* ============================================ 
+               classes part end
+ ============================================ */
+
+
+    /* Next Part */
+
+    /* ============================================ 
+               logo part start
+ ============================================ */
+ #logo {
+	padding-bottom: 43px;
+}
+
+    /* ============================================ 
+               logo part end
+ ============================================ */
+
+
+    /* Next Part */
+
+    /* ============================================ 
+               footer part start
+ ============================================ */
+ .footer-logo {
+	padding: 2px 0;
+}
+.footer-mid {
+	padding: 15px 0 0 0;
+}
+.footer-left h4, .footer-left2 h4, .foot-img h4, .foot-last h4 {
+	margin-bottom: 15px;
+}
+.foot-img ul li {
+	width: 21.95%;
+}
+
+
+    /* ============================================ 
+               footer part end
+ ============================================ */
+}
+
+@media (max-width: 575.98px) {
+
+    /* ============================================ 
+               menu part start
+ ============================================ */
+    .main-manu {
+        top: 0px;
+        background: var(--hov);
+    }
+
+    .main-manu .navbar-brand {
+        width: 180px;
+        height: 52px;
+        line-height: 52px;
+    }
+
+    .main-manu button i {
+        color: #fff;
+    }
+
+    .main-manu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main-manu #navbarSupportedContent {
+        background: #e23e38;
+        text-align: center;
+    }
+
+    .main-manu ul li a::after {
+        display: none;
+    }
+
+    .main-manu ul li a {
+        line-height: 35px;
+    }
+
+    .main-manu ul li a:focus {
+        color: inherit;
+    }
+    .btop {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    
+    }
+    /* ============================================ 
+               menu part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               banner part start
+ ============================================ */
+    .banner-text h2::before,
+    .banner-text h2::after,
+    .banner-text p::before,
+    .banner-text p::after,
+    .banner-text h1::before,
+    .banner-text h1::after {
+        display: none;
+    }
+
+    .banner-iteam {
+        padding: 110px 0 70px;
+    }
+
+    .banner-text h2 {
+        font-size: 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    .banner-text a {
+        padding: 5px 10px;
+        margin-top: 23px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    #banner .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0px 3px;
+    }
+
+
+
+    /* ============================================ 
+               banner part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               about part start
+ ============================================ */
+    #about {
+        padding: 43px 0;
+    }
+
+    .about-text p {
+        margin-bottom: 24px;
+        text-align: justify;
+    }
+
+    .about-text p span {
+        margin-top: 10px;
+    }
+
+    .gal-img:nth-child(2) {
+        margin-bottom: 24px;
+    }
+
+    /* ============================================ 
+               about part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               gallery part start
+ ============================================ */
+    .gal-img:nth-child(2) {
+        margin-bottom: 24px;
+    }
+
+    /* ============================================ 
+               gallery part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               team part start
+ ============================================ */
+    .team-main {
+        transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+    }
+
+    .team-main .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team-main .team-txt p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team-main .team-txt {
+        border-color: #dddddd;
+    }
+
+    #team {
+        padding: 43px 0 21px;
+    }
+
+
+    /* ============================================ 
+               team part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               Testimonial part start
+ ============================================ */
+    #Testimonial .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    #Testimonial .slick-dots li button {
+        margin: 0 3px;
+    }
+
+    #Testimonial .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+    }
+    
+
+    /* ============================================ 
+               Testimonial part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+                Member part start
+ ============================================ */
+    #membership {
+        padding: 63px 0;
+    }
+
+    .member-inner h3 {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .member-inner h2 {
+        padding: 20px;
+        font-size: 35px;
+    }
+
+    .member-inner h2 span {
+        font-size: 22px;
+    }
+
+    .member-inner ul {
+        padding: 5px 0;
+    }
+
+    .member-inner ul li {
+        padding: 10px 0;
+    }
+
+    .member-inner a {
+        padding: 5px 0;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    /* ============================================ 
+                Member part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               counter part start
+ ============================================ */
+    #counter .counter-txt h3 {
+        font-size: 17px;
+    }
+
+    #counter .counter-txt p {
+        font-size: 14px;
+    }
+
+    /* ============================================ 
+               counter part end
+ ============================================ */
+
+    /* Next Part */
+
+    /* ============================================ 
+               classes part start
+ ============================================ */
+    .class-menu li {
+        width: 33.33%;
+        border-bottom: 1px solid var(--hov);
+        height: 35px;
+    }
+
+    .class-menu li button {
+        height: 35px;
+    }
+
+    .class-body ul li {
+        width: 49.16%;
+        padding: 20px 0;
+    }
+
+    .class-body ul li:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .class-body ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    .logo-fix ul li p {
+        font-size: 12px;
+    }
+
+    .logo-fix ul li i {
+        font-size: 30px;
+    }
+
+    .logo-fix ul li p:last-child {
+        font-size: 12px;
+    }
+    #classes {
+        padding: 43px 0;
+    }
+
+    /* ============================================ 
+               classes part end
+ ============================================ */
+
+
+    /* Next Part */
+
+    /* ============================================ 
+               logo part start
+ ============================================ */
+ #logo {
+	padding-bottom: 43px;
+}
+.logo-slide .slick-center a {
+	box-shadow: 0 0 0 0 #000000;
+}
+    /* ============================================ 
+               logo part end
+ ============================================ */
+
+
+    /* Next Part */
+
+    /* ============================================ 
+               footer part start
+ ============================================ */
+ .footer-logo {
+	padding: 2px 0;
+}
+.footer-mid {
+	padding: 15px 0 0 0;
+}
+.footer-left h4, .footer-left2 h4, .foot-img h4, .foot-last h4 {
+	margin-bottom: 15px;
+}
+.footer-left2 ,
+.foot-last{
+    padding-top: 15px;
+}
+.foot-img ul li {
+	width: 22.47%;
+}
+.footer-bottom {
+	font-size: 12px;
+}
+
+    /* ============================================ 
+               footer part end
+ ============================================ */
+
+
+
+}

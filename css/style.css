@@ -1,0 +1,1224 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --os: 'Oswald', sans-serif;
+    --hov: #e23e38;
+    --op: 'Open Sans', sans-serif;
+}
+
+.main-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.main-overlay:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.trans {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.pre_loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe7001;
+    z-index: 9999999999;
+}
+
+.pre_loader img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* =================common css======================= */
+
+
+
+
+/* Next Part */
+
+
+
+
+/* ============================================ 
+              manu part start
+ ============================================ */
+.main-manu {
+    height: 51px;
+    background: rgba(53, 53, 53, 0.25);
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    z-index: 999;
+}
+
+.main-manu ul li a {
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: var(--os);
+    padding: 0 10px;
+    line-height: 50px;
+    position: relative;
+}
+
+.main-manu ul li a:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--hov);
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform-origin: 100% 0;
+    transition: transform .3s;
+    -webkit-transition: transform .3s;
+    -moz-transition: transform .3s;
+    -ms-transition: transform .3s;
+    -o-transition: transform .3s;
+}
+
+.main-manu ul li a:hover:after {
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform-origin: 0 0;
+}
+
+.main-manu ul li a:hover {
+    color: #222222;
+    background: #fff;
+}
+
+.main-manu .navbar-brand {
+    width: 245px;
+    height: 70px;
+    line-height: 70px;
+    background: #323232;
+    text-align: center;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+}
+
+.main-manu .navbar-brand img {
+    transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+    -ms-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+}
+
+
+/* Menu fix */
+
+
+
+.menu-fix {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.btop {
+    width: 60px;
+    height: 60px;
+    background: rgb(226, 62, 56);
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+    /* border-radius: 10% 0 10% 0;
+    -webkit-border-radius: 63% 0 63% 0;
+    -moz-border-radius: 10% 0 10% 0;
+    -ms-border-radius: 10% 0 10% 0;
+    -o-border-radius: 10% 0 10% 0; */
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
+
+
+
+
+
+/* ============================================ 
+              manu part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              banner part start
+ ============================================ */
+.banner-iteam {
+    padding: 254px 0 117px;
+}
+
+.banner-iteam:after {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.banner-text h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: var(--os);
+    font-weight: 600;
+}
+
+.banner-text h1 {
+    margin-top: 8px;
+    font-size: 60px;
+    color: #e23e38;
+    font-family: var(--os);
+    font-weight: 600;
+}
+
+.banner-text p {
+    margin-top: 28px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 18px;
+}
+
+
+.banner-text a {
+    margin-top: 19px;
+    padding: 8px 29px;
+    border: 1px solid white;
+    color: #fff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    margin-left: 17px;
+    margin-right: 9px;
+    text-transform: uppercase;
+    font-family: var(--os);
+    font-size: 16px;
+}
+
+.banner-text a:first-child {
+    margin-left: 0;
+}
+
+.banner-text a:hover {
+    border: 1px solid #e23e38;
+    background: #e23e38;
+}
+
+.banner-text h2 {
+    position: relative;
+}
+
+.banner-text h2:after {
+    position: absolute;
+    content: '';
+    right: -29px;
+    top: 23px;
+    width: 109px;
+    height: 3px;
+    background: var(--hov);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+}
+
+.banner-text h2:before {
+    position: absolute;
+    content: '';
+    left: -29px;
+    top: 23px;
+    width: 164px;
+    height: 3px;
+    background: var(--hov);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+}
+
+.banner-text h1 {
+    position: relative;
+}
+
+.banner-text h1:after {
+    position: absolute;
+    content: '';
+    left: -30px;
+    top: -31%;
+    width: 3px;
+    height: 199px;
+    background: var(--hov);
+}
+
+.banner-text h1:before {
+    position: absolute;
+    content: '';
+    right: -30px;
+    top: -31%;
+    width: 3px;
+    height: 199px;
+    background: var(--hov);
+}
+
+
+
+.banner-text p {
+    position: relative;
+}
+
+.banner-text p:after {
+    position: absolute;
+    content: '';
+    right: -30px;
+    bottom: -41px;
+    width: 46px;
+    height: 3px;
+    background: var(--hov);
+
+}
+
+.banner-text p:before {
+    position: absolute;
+    content: '';
+    left: -30px;
+    bottom: -41px;
+    width: 74px;
+    height: 3px;
+    background: var(--hov);
+
+}
+
+#banner .slick-dots {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#banner .slick-dots li button {
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 10px;
+}
+
+#banner .slick-dots li.slick-active button {
+    width: 20px;
+    height: 20px;
+    background: var(--hov);
+    border-color: var(--hov);
+}
+
+/* ============================================ 
+              banner part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              about part start
+ ============================================ */
+#about {
+    padding: 80px 0;
+}
+
+.about-video {
+    position: relative;
+}
+
+.about-video .overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.about-video .overly a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    background: var(--hov);
+    color: #292020;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+}
+
+.about-text h2 {
+    font-family: var(--os);
+    font-weight: 400;
+    font-size: 22px;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about-text img {
+    margin-bottom: 24px;
+}
+
+.about-text p {
+    font-family: var(--op);
+    font-size: 14px;
+    color: #444444;
+    line-height: 24px;
+}
+
+.about-text p span {
+    display: block;
+    margin-top: 13px;
+}
+
+/* ============================================ 
+              about part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              gallery part start
+ ============================================ */
+.gel-banner {
+    padding: 30px 0;
+}
+
+
+.gel-banner::after {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+.gal-img {
+    position: relative;
+}
+
+
+.gal-img .overly {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(233, 154, 148, 0.5);
+    border: 5px solid rgba(190, 186, 177, 0.5);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+
+.gal-img .overly a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 28px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.gal-img:first-child {
+    margin-bottom: 24px;
+}
+
+
+.gal-img:hover .overly {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+
+.common-head h2 {
+    font-family: var(--os);
+    font-weight: 400;
+    font-size: 22px;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+
+.common-head img {
+    margin-bottom: 24px;
+}
+
+/* ============================================ 
+              gallery part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              team part start
+ ============================================ */
+#team {
+    padding: 80px 0;
+}
+
+
+.team-img {
+    position: relative;
+}
+
+
+.team-img .overly {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(233, 154, 148, 0.5);
+    border: 5px solid rgba(190, 186, 177, 0.5);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.team-main:hover .overly {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.team-img .overly ul {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.team-img .overly ul li a {
+    width: 30px;
+    height: 30px;
+    color: #fffefe;
+    border: 1px solid #fff;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.team-img .overly ul li a:hover {
+    background: #fff;
+    color: #1da0f2;
+    border-color: #fff;
+}
+
+.team-main {
+    padding-top: 72px;
+}
+
+.team-main:hover {
+    transform: translateY(-42px);
+    -webkit-transform: translateY(-42px);
+    -moz-transform: translateY(-42px);
+    -ms-transform: translateY(-42px);
+    -o-transform: translateY(-42px);
+}
+
+.team-txt p {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.team-txt {
+    border: 1px solid transparent;
+}
+
+.team-txt h4,
+.team-txt h6 {
+    font-family: var(--os);
+    font-weight: 400;
+    color: #222222;
+    font-size: 14px;
+}
+
+.team-txt h4 {
+    padding-top: 15px;
+}
+
+.team-txt h6 {
+    padding-top: 6px;
+}
+
+.team-txt p {
+    font-family: var(--op);
+    color: #444444;
+    font-size: 13px;
+    padding: 22px;
+}
+
+.team-main:hover .team-txt p {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+
+.team-main:hover .team-txt {
+    border-color: #dddddd;
+}
+
+
+.team-slider .slick-slide {
+    padding: 0 12px;
+}
+/* ============================================ 
+              team part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              Testimonial part start
+ ============================================ */
+.text-bg {
+    padding: 30px 0;
+}
+
+.text-bg:after {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#Testimonial .slick-slider {
+    margin: 0 12px;
+}
+
+#Testimonial .slick-dots {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: -22px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: auto;
+}
+
+#Testimonial .slick-dots li button {
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 10px;
+}
+
+#Testimonial .slick-dots li.slick-active button {
+    width: 20px;
+    height: 20px;
+    background: var(--hov);
+    border-color: var(--hov);
+}
+
+.tst-name h4,
+h6 {
+    font-family: var(--os);
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.tst-p p {
+    font-family: var(--op);
+    font-weight: 400;
+    font-size: 13px;
+    color: #dddddd;
+    margin-right: 36px;
+}
+
+.tst-name i {
+    color: var(--hov);
+}
+
+/* ============================================ 
+              Testimonial part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              Membership part start
+ ============================================ */
+#membership {
+    padding: 80px 0;
+}
+
+.member-inner h3 {
+    padding: 20px 0;
+    background: #dddddd;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.member-inner h2 {
+    padding: 32px;
+    background: url(../images/member.jpg);
+    color: #fff;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.member-inner h2 span {
+    font-size: 29px;
+}
+
+.member-inner h2:after {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.member-inner ul {
+    background: #f1f1f1;
+    padding: 20px 0;
+}
+
+.member-inner ul li {
+    background: #f1f1f1;
+    padding: 15px 0;
+}
+
+.member-inner a {
+    padding: 10px 0;
+    background: #dddddd;
+    display: block;
+    color: #222222;
+    font-family: var(--os);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.member-inner .one {
+    background: url(../images/member1.jpg);
+}
+
+.member-inner .two {
+    background: url(../images/member2.jpg);
+}
+
+.member-inner:hover h3 {
+    background: var(--hov);
+    color: #fff;
+}
+
+.member-inner:hover a {
+    background: var(--hov);
+    color: #fff;
+}
+
+/* ============================================ 
+              Membership part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              counter part start
+ ============================================ */
+#counter {
+    padding: 32px 0;
+}
+
+#counter:after {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#counter .counter-txt {
+    color: #fff;
+    font-family: var(--os);
+}
+
+#counter .counter-txt h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#counter .counter-txt p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* ============================================ 
+              counter part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              classes part start
+ ============================================ */
+.class-menu li {
+    width: 16.66666%;
+    height: 50px;
+    background: #f1f1f1;
+}
+
+#classes {
+    padding: 80px 0;
+}
+
+.class-menu li button {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    color: #222222;
+    font-family: var(--os);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.class-menu li button:hover {
+    color: #222222;
+}
+
+.class-menu .nav-link.active,
+.class-menu .show>.nav-link {
+    color: #fff;
+    background-color: var(--hov);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.logo-fix ul li p {
+    font-size: 16px;
+}
+
+.logo-fix ul li p:last-child {
+    font-size: 14px;
+}
+
+.class-body ul li {
+    width: 19.64%;
+    margin-right: 5px;
+    background: #f1f1f1;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.class-body ul li:nth-child(5),
+.class-body ul li:nth-child(10) {
+    margin-right: 0;
+}
+
+.logo-fix ul li i {
+    font-size: 50px;
+}
+
+.logo-fix ul li {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.logo-fix ul li:hover {
+    background: var(--hov);
+}
+
+.logo-fix ul li:hover i {
+    color: #fff;
+}
+
+.logo-fix ul li:hover p {
+    color: #fff;
+}
+.class-menu  li button:hover {
+    color: var(--hov) ;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+/* ============================================ 
+              classes part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              logo part start
+ ============================================ */
+#logo {
+    padding-bottom: 80px;
+}
+
+.prv,
+.nxt {
+    width: 39px;
+    height: 40px;
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 2;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.prv:hover,
+.nxt:hover {
+    color: var(--hov);
+}
+
+.prv {
+    left: -46px;
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+}
+
+.nxt {
+    right: -46px;
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+}
+
+.logo-slide .slick-slide {
+    padding: 0 12px;
+}
+
+.logo-slide .slick-center a {
+    box-shadow: 0 0 10px 0 #000000;
+    display: block;
+}
+
+.logo-slide .draggable {
+    padding: 10px 0 !important;
+}
+
+/* ============================================ 
+              logo part end
+ ============================================ */
+
+
+/* Next Part */
+
+
+/* ============================================ 
+              footer part start
+ ============================================ */
+.footer-logo {
+    padding: 30px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+#footer::after {
+    background: rgba(0, 0, 0, 0.84);
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    border-top: 1px solid #dddddd;
+}
+
+.footer-mid {
+    padding: 30px 0;
+    color: #dddddd;
+}
+
+.footer-left2 p {
+    padding-left: 28px;
+    position: relative;
+}
+
+.footer-left2 p i {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.foot-img ul li {
+    width: 22%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.foot-img ul li img {
+    width: 100%;
+    max-width: 100%;
+}
+.foot-img ul li a {
+    display: block;
+}
+.foot-img ul li:nth-child(4),
+.foot-img ul li:nth-child(8),
+.foot-img ul li:nth-child(12) {
+    margin-right: 0;
+}
+
+.foot-last {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.foot-last ul li a i {
+    color: #fff;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    transition: all linear .3s ;
+    -webkit-transition: all linear .3s ;
+    -moz-transition: all linear .3s ;
+    -ms-transition: all linear .3s ;
+    -o-transition: all linear .3s ;
+}
+
+.foot-last ul li a I:hover {
+    background: var(--hov);
+}
+
+.footer-left h4,
+.footer-left2 h4,
+.foot-img h4,
+.foot-last h4 {
+    font-family: var(--os);
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.footer-left ul li {
+    font-family: var(--op);
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.footer-left2 p {
+    font-family: var(--op);
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.footer-left2 p i {
+    color: #1da1f2;
+    font-size: 20px;
+}
+
+.foot-last p {
+    font-family: var(--op);
+    font-size: 13px;
+    font-weight: 400;
+    color: #dddddd;
+    margin-bottom: 17px;
+}
+
+.foot-last a {
+    font-family: var(--op);
+    font-size: 13px;
+    font-weight: 400;
+    color: #dddddd;
+    margin-bottom: 17px;
+}
+
+.foot-last p i {
+    color: var(--hov);
+}
+
+.foot-last a i {
+    color: var(--hov);
+}
+
+.footer-bottom {
+    font-family: var(--op);
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-bottom p a {
+    color: var(--hov);
+}
+
+/* ============================================ 
+              footer part end
+ ============================================ */
