@@ -7,6 +7,9 @@ img-fluid
 w-100
 text-center
 justify-content-end
+new
+float :right;
+d-flex
 
 
 
